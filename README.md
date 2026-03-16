@@ -131,6 +131,8 @@
 
 ## <a id="architecture"></a>🧠 Architecture
 
+*   [**Attention Residuals: 딥러닝 레이어 사이의 정보 흐름 재설계**](./Architecture/114.md)  
+    *Kimi (Moonshot AI): RNN에서 Attention, ResNet에서 AttnRes*
 *   [**Nemotron 3 Super와 NVFP4의 마법**](./Architecture/113.md)  
     *NVIDIA의 기업용 에이전트 니모클로(Nemoclo)와 블랙웰 하드웨어 장벽.*
 *   [**최고 성능의 4.44배 빠른 ASR 분야의 dLLM**](./Architecture/112.md)  
