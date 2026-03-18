@@ -211,6 +211,8 @@
 
 ## <a id="post-training"></a>🎯 Post-Training
 
+*   [**Introduction to Post-Training & Beyond 강연 후기 및 향후 계획**](./Post_Training/125.md)  
+    *Maxime Labonne의 강연 자료를 기반으로 한 온라인 강연 성공 사례와 향후 디스코드 스터디 계획.*
 *   [**그 OpenClaw로 강화학습을? 프린스턴 대학교의 OpenClaw-RL**](./Post_Training/124.md)  
     *프린스턴 대학교 연구진이 제안한 OpenClaw-RL 프레임워크와 실시간 강화학습의 한계.*
 *   [**강화학습 과정은 단 13개의 파라미터면 충분합니다.**](./Post_Training/110.md)  
@@ -375,6 +377,8 @@
 
 ## <a id="trends--industry"></a>🔥 Trends & Industry
 
+*   [**국가 경쟁 시대의 종말과 아웃라이어 기업/자본**](./Trends/124.md)  
+    *국가 간 경쟁보다 압도적인 기술력을 가진 아웃라이어 기업과 거대 자본이 시장을 주도하는 시대에 대한 통찰.*
 *   [**이제는 학습이 아니라 추출의 시대입니다**](./Trends/123.md)  
     *학습을 최소화하고 모델의 숨겨진 지능을 폭발시키는 5가지 최신 방법론과 패러다임의 변화.*
 *   [**인공지능에서의 중요도는 데이터 90%, 에이전트 9%, 모델 1%입니다.**](./Trends/120.md)  
