@@ -9,6 +9,7 @@
 
 ## 📢 News
 
+*   **[2026-03-20]** [**Modern Model Architectures Overview 강연 자료 (PDF)**](./PDF/Modern-Model-Architectures-Overview.pdf)를 업데이트했습니다.
 *   **[2026-03-15]** [**Introduction to Post-Training & Beyond 강연 자료 (PDF)**](./PDF/introduction-to-post-training-and-beyond.pdf)를 업데이트했습니다.
 
 ## 📌 Introduction
