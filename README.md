@@ -132,6 +132,8 @@
 
 ## <a id="architecture"></a>🧠 Architecture
 
+*   [**Jacobi Forcing: 튜닝만으로 추론 속도를 4배 끌어올리는 방법**](./Architecture/115.md)  
+    *기존 LLM 아키텍처 변경 없이, 가벼운 튜닝만으로 추론 속도를 4배 향상 (KV 캐시 100% 보존)*
 *   [**Attention Residuals: 딥러닝 레이어 사이의 정보 흐름 재설계**](./Architecture/114.md)  
     *Kimi (Moonshot AI): RNN에서 Attention, ResNet에서 AttnRes*
 *   [**Nemotron 3 Super와 NVFP4의 마법**](./Architecture/113.md)  
