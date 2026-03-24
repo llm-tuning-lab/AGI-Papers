@@ -132,6 +132,10 @@
 
 ## <a id="architecture"></a>🧠 Architecture
 
+*   [**Modern Model Architectures Overview 강연 온라인 진행 안내**](./Architecture/117.md)  
+    *다양한 모델 아키텍처 소개 및 온라인 무료 강연 진행 일정 안내.*
+*   [**손실 없는 Transformer to xLSTM 증류법**](./Architecture/116.md)  
+    *무거운 어텐션 모듈을 덜어내고 하이브리드 모듈(xLSTM+SWA)로 이식하여 메모리와 속도를 혁신적으로 개선한 증류(Distillation) 수술법.*
 *   [**Jacobi Forcing: 튜닝만으로 추론 속도를 4배 끌어올리는 방법**](./Architecture/115.md)  
     *기존 LLM 아키텍처 변경 없이, 가벼운 튜닝만으로 추론 속도를 4배 향상 (KV 캐시 100% 보존)*
 *   [**Attention Residuals: 딥러닝 레이어 사이의 정보 흐름 재설계**](./Architecture/114.md)  
@@ -380,6 +384,8 @@
 
 ## <a id="trends--industry"></a>🔥 Trends & Industry
 
+*   [**인공지능 모델링의 예술화와 그 본질**](./Trends/125.md)  
+    *과학과 수학을 넘어, 창작자의 표현 방식과 개성이 중요해지는 강화학습(RL) 분야의 단상.*
 *   [**국가 경쟁 시대의 종말과 아웃라이어 기업/자본**](./Trends/124.md)  
     *국가 간 경쟁보다 압도적인 기술력을 가진 아웃라이어 기업과 거대 자본이 시장을 주도하는 시대에 대한 통찰.*
 *   [**이제는 학습이 아니라 추출의 시대입니다**](./Trends/123.md)  
