@@ -4,7 +4,20 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 🤖 Agents
+## 📚 Contents
+
+이 저장소의 **Drafts(초안 및 요약 리스트)**를 다음 6가지 핵심 주제로 분류하여 아카이빙합니다.
+
+- [🤖 Agents](#agents) : 자율 에이전트, 행동/계획(Planning) 모델, 프레임워크
+- [🧠 Architecture](#architecture) : LLM 아키텍처 혁신 (Transformer, Mamba, MoE)
+- [📚 Pre-Training & Post-Training](#pre-post-training) : 파운데이션 모델, RLHF, DPO, GRPO, 정렬(Alignment)
+- [🗂️ RAG & Knowledge](#rag-knowledge) : 검색 증강 생성, 지식 그래프, 메모리
+- [💻 On-Device & Audio](#on-device) : 로컬 구동, 엣지 컴퓨팅, 최적화
+- [🔥 Trends & Industry](#trends-industry) : AI 산업의 동향, 인사이트, 주요 뉴스
+
+---
+
+## <a id="agents"></a>🤖 Agents
 
 *   [**코딩 에이전트의 역설: 친절한 설명서 (AGENTS.md)가 망치는 효율성**](Drafts/Evaluating_AGENTS_md.md)
     *   **Topic**: Agent / Evaluation
@@ -79,7 +92,7 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 🧠 Architecture
+## <a id="architecture"></a>🧠 Architecture
 
 *   [**글로벌 확장의 새로운 룰 'Tiny Aya': 3B 체급으로 70개 국어를 정복하다**](Drafts/Tiny_Aya_Multilingual.md)
     *   **Topic**: Tiny Model / Multilingual
@@ -178,7 +191,7 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 📚 Pre-Training & Post-Training
+## <a id="pre-post-training"></a>📚 Pre-Training & Post-Training
 
 *   [**생각의 궤적에 보상을 주다: RLTT 알고리즘 구현의 핵심**](Drafts/RLTT_Algorithm_Implementation.md)
     *   **Topic**: Reinforcement Learning / Looped Model
@@ -226,7 +239,7 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 🗂️ RAG & Knowledge
+## <a id="rag-knowledge"></a>🗂️ RAG & Knowledge
 
 *   [**PathRAG: 노이즈를 쳐내는 핵심 관계 경로 추출**](Drafts/PathRAG.md)
     *   **Topic**: Graph RAG
@@ -242,7 +255,7 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 💻 On-Device & Audio
+## <a id="on-device"></a>💻 On-Device & Audio
 
 *   [**xLSTM 증류, 로컬 환경 커널 최적화 및 투기적 해독**](Drafts/xLSTM_Local_Engine.md)
     *   **Topic**: Inference Optimization / xLSTM
@@ -262,7 +275,7 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 🔥 Trends & Industry
+## <a id="trends-industry"></a>🔥 Trends & Industry
 
 *   [**친노동자적 AI: AI는 왜 당신을 대체하려고만 할까?**](Drafts/Pro_Worker_AI.md)
     *   **Topic**: Future of Work / AI Policy
