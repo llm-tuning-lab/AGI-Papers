@@ -285,6 +285,8 @@
 
 ## <a id="on-device-ai"></a>💻 On-Device AI
 
+*   [**flash-moe: 48GB 맥북에서 Qwen3.5-397B-A17B 돌리기**](./On_Device/126.md)  
+    *C언어와 OS 순정 기능으로 SSD 병목을 뚫어낸 Mac 전용 추론 엔진.*
 *   [**Liquid AI 1.2B vs Google 4B**](./On_Device/45.md)  
     *Pau Labarta Bajo's Local AI Insight.*
 *   [**국가대표 AI 탈락 그 후 (On-Device Focus)**](./On_Device/42.md)  
