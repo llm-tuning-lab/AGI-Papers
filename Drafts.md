@@ -77,6 +77,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ## 🧠 Architecture
 
+*   [**디퓨전 LLM: 속도와 보안의 룰을 바꾸다 (Mercury 2)**](Drafts/Diffusion_LLM_Mercury2.md)
+    *   **Topic**: Diffusion Language Model / Inference
+    *   **Summary**: 뮌헨 공대의 인페인팅 보안 공격과 초당 1,009 토큰을 생성하는 Mercury 2 상용 모델을 통해 본 디퓨전 LLM의 파괴적 혁신(속도, 보안, 부분 수정)과 구조적 한계.
+
 *   [**ModernBERT: 2026년 시맨틱 라우터의 글로벌 표준**](Drafts/ModernBERT_Router.md)
     *   **Topic**: Encoder / LLM Routing
     *   **Summary**: Unpadding 및 Alternating Attention 설계로 인텔 CPU 8비트 환경의 연산 한계를 돌파한 2조 개 토큰 인코더의 효율성 벤치마킹 분석.
@@ -168,6 +172,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ## 📚 Pre-Training & Post-Training
 
+*   [**희소 메모리 파인튜닝: 파괴적 망각 방지법**](Drafts/Sparse_Memory_Finetuning.md)
+    *   **Topic**: Continual Learning / Finetuning
+    *   **Summary**: FFN 레이어를 '메모리 슬롯'으로 교체하고 TF-IDF로 새로운 지식 슬롯만 타겟팅해 업데이트함으로써, 기존 지식 망각률을 89%에서 11%로 방어한 지속 학습 혁신.
+
 *   [**LLM 학습의 본질: 잠재/희소성 구조, Pre-training vs SFT**](Drafts/Latent_Sparse_Training.md)
     *   **Topic**: Philosophy / AI Training
     *   **Summary**: 모델의 공간 효율성(PCA, SVD, Lasso 정규화 철학)과 목적별 학습 파이프라인(Pre-training, SFT, RL)의 본질적 의미, Instruction 사전 훈련의 이점 고찰.
@@ -239,6 +247,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 ---
 
 ## 🔥 Trends & Industry
+
+*   [**친노동자적 AI: AI는 왜 당신을 대체하려고만 할까?**](Drafts/Pro_Worker_AI.md)
+    *   **Topic**: Future of Work / AI Policy
+    *   **Summary**: NBER 논문 분석. 기술 알고리즘의 문제가 아닌 AGI 지상주의와 경영진의 자동화 선호(세제 혜택 등) 구조가 혁신적 '인간-AI 협업'을 막고 있음을 지적한 정책 제언.
 
 *   [**데이터가 90%다: AI 시대의 가장 중요한 습관**](Drafts/Data_Is_Everything.md)
     *   **Topic**: AI Era Philosophy
