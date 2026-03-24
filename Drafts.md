@@ -6,6 +6,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ## 🤖 Agents
 
+*   [**Zero-Swap Tiny-MoA: 16GB 로컬 에이전트 아키텍처**](Drafts/Zero_Swap_Tiny_MoA.md)
+    *   **Topic**: Local Agent Architecture
+    *   **Summary**: 16GB RAM 제약 속에서 ModernBERT 라우터와 350M 다이내믹 LoRA 스와핑, 1.2B 모델을 버무려 지연 시간(I/O 스와핑)을 0에 수렴시킨 현존 최고 효율의 다중 에이전트 마스터플랜.
+
 *   [**AI Can Learn Scientific Taste**](Drafts/Scientific_Taste.md)
     *   **Topic**: Agent / Scientific Discovery
     *   **Summary**: AI 과학자가 지시된 연구를 넘어 가치 있는 연구 방향을 판별하고 고안하는 능력을 RLCF로 학습. 인용 수와 전문가 평가를 통한 '과학적 안목' 구축 프레임워크 제안.
@@ -72,6 +76,14 @@ This file contains drafts and summaries of new papers that have not yet been ful
 ---
 
 ## 🧠 Architecture
+
+*   [**ModernBERT: 2026년 시맨틱 라우터의 글로벌 표준**](Drafts/ModernBERT_Router.md)
+    *   **Topic**: Encoder / LLM Routing
+    *   **Summary**: Unpadding 및 Alternating Attention 설계로 인텔 CPU 8비트 환경의 연산 한계를 돌파한 2조 개 토큰 인코더의 효율성 벤치마킹 분석.
+
+*   [**Omni-Diffusion: 이산 확산(Discrete Diffusion) 기반 멀티모달**](Drafts/Omni_Diffusion.md)
+    *   **Topic**: Multimodal / Diffusion
+    *   **Summary**: AR(자가회귀)의 순차적 토큰 제한을 뛰어넘어, 이미지·오디오·텍스트의 단일 정렬 의미 공간을 구축해 병렬 디코딩을 구현한 Any-to-Any 모델 리뷰.
 
 *   [**MDM-Prime-v2: 확산 언어 모델 연산 효율성 최적화**](Drafts/MDM_Prime_v2.md)
     *   **Topic**: Diffusion Language Model
@@ -227,6 +239,14 @@ This file contains drafts and summaries of new papers that have not yet been ful
 ---
 
 ## 🔥 Trends & Industry
+
+*   [**데이터가 90%다: AI 시대의 가장 중요한 습관**](Drafts/Data_Is_Everything.md)
+    *   **Topic**: AI Era Philosophy
+    *   **Summary**: 모델 스펙이나 거대 에이전트에 매몰되지 말고 실패/해결사례 기록만 남긴다면, AGI 체제의 가장 차별성 높은 데이터 무기를 얻는다는 실전 철학.
+
+*   [**AI 시대, 완전히 뒤집힌 직업의 안전성 (앤트로픽 차트)**](Drafts/AI_Job_Safety.md)
+    *   **Topic**: Future of Work
+    *   **Summary**: 앤트로픽의 이론적 커버리지 분석에 따른, 코딩·법률·사무직 지식 노동의 완전한 위험성과 대면·육체 현장 노동의 절대적 안전성으로 붕괴된 시대의 역설 분석.
 
 *   [**NCCL 오류(Silent Failure) 원인과 대안 라이브러리**](Drafts/NCCL_Alternative.md)
     *   **Topic**: AI Infrastructure
