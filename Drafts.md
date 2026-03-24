@@ -6,6 +6,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ## 🤖 Agents
 
+*   [**AI Can Learn Scientific Taste**](Drafts/Scientific_Taste.md)
+    *   **Topic**: Agent / Scientific Discovery
+    *   **Summary**: AI 과학자가 지시된 연구를 넘어 가치 있는 연구 방향을 판별하고 고안하는 능력을 RLCF로 학습. 인용 수와 전문가 평가를 통한 '과학적 안목' 구축 프레임워크 제안.
+
 *   [**AI Era Cognitive Surrender**](Drafts/Cognitive_Surrender.md)
     *   **Topic**: Human-AI Interaction
     *   **Summary**: System 1 (Intuition)과 System 2 (Deliberation)를 넘어, 외부 인지 시스템인 **System 3 (AI)**에 의존하는 인간의 '인지적 항복(Cognitive Surrender)' 현상과 그 위험성을 경고한 행동과학 연구.
@@ -68,6 +72,22 @@ This file contains drafts and summaries of new papers that have not yet been ful
 ---
 
 ## 🧠 Architecture
+
+*   [**MDM-Prime-v2: 확산 언어 모델 연산 효율성 최적화**](Drafts/MDM_Prime_v2.md)
+    *   **Topic**: Diffusion Language Model
+    *   **Summary**: 이진 인코딩(Binary Encoding)과 인덱스 셔플링을 적용해 마스크 확산 언어 모델(MDM)의 연산 효율성을 ARM 대비 21.8배 향상시킨 혁신.
+
+*   [**Nemotron-Cascade 2 아키텍처 및 학습 방법론**](Drafts/Nemotron_Cascade_2.md)
+    *   **Topic**: Architecture / Post-Training
+    *   **Summary**: 활성 3B의 MoE 모델로 놀라운 지능 밀도(IMO 금메달)를 달성한 비법. 순차적 강화학습(Cascade RL)과 다중 도메인 지식 증류(MOPD) 구조 분석.
+
+*   [**선형 RNN 병렬화 처리 속도와 표현력 분석**](Drafts/Linear_RNN_Parallelizable.md)
+    *   **Topic**: Linear RNN / Expressivity
+    *   **Summary**: 선형, 비선형 RNN, 트랜스포머 간 회로 깊이(Circuit Depth)의 수학적 증명을 통해 지능과 처리 속도의 양자택일 트레이드오프 파헤치기.
+
+*   [**BERT-JEPA: 언어 불변 의미론적 공간 구축**](Drafts/BERT_JEPA.md)
+    *   **Topic**: Latent Space / Embeddings
+    *   **Summary**: BERT의 [CLS] 붕괴 한계를 Yann LeCun의 JEPA(Predictive Architecture) 구조로 해결. 언어에 얽매이지 않는 진보적인 생각/의미역(Thought space) 융합.
 
 *   [**TEON vs Muon: Pre-training Optimizer**](Drafts/TEON_vs_Muon.md)
     *   **Topic**: Optimization
@@ -136,6 +156,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ## 📚 Pre-Training & Post-Training
 
+*   [**LLM 학습의 본질: 잠재/희소성 구조, Pre-training vs SFT**](Drafts/Latent_Sparse_Training.md)
+    *   **Topic**: Philosophy / AI Training
+    *   **Summary**: 모델의 공간 효율성(PCA, SVD, Lasso 정규화 철학)과 목적별 학습 파이프라인(Pre-training, SFT, RL)의 본질적 의미, Instruction 사전 훈련의 이점 고찰.
+
 *   [**신경망 덤불과 RandOpt 리뷰**](Drafts/RandOpt_Review.md)
     *   **Topic**: Optimization / Evaluation / Post-Training
     *   **Summary**: 기울기(Gradient) 계산 없이 무작위로 가중치를 섞는 RandOpt 알고리즘의 실체를 파헤친 리뷰. 막대한 추론 비용(K배 폭발), 포맷팅에 치우친 가짜 지능, H100 1대 기준 비현실적인 학습 시간을 지적하며 극단적 학술 연구가 지닌 실무적 한계와 의의를 정리.
@@ -168,6 +192,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ## 🗂️ RAG & Knowledge
 
+*   [**PathRAG: 노이즈를 쳐내는 핵심 관계 경로 추출**](Drafts/PathRAG.md)
+    *   **Topic**: Graph RAG
+    *   **Summary**: 그래프 기반 RAG에서 무분별한 이웃 노드(노이즈) 검색을 탈피, 가지치기 탐색을 통해 가장 영양가 높은(핵심 깊이) 연결선 흐름으로만 정보를 조합하는 LLM 최적화 서칭.
+
 *   [**LimRank: Less is More**](Drafts/LimRank.md)
     *   **Topic**: RAG / Reranking
     *   **Summary**: 검색된 문서의 순위를 재조정(Reranking)하는 모델을 만들 때, 많은 데이터보다 **양질의 합성 데이터** 소량이 더 효과적임을 증명. 2만 개 데이터로 SOTA 달성.
@@ -179,6 +207,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 ---
 
 ## 💻 On-Device & Audio
+
+*   [**xLSTM 증류, 로컬 환경 커널 최적화 및 투기적 해독**](Drafts/xLSTM_Local_Engine.md)
+    *   **Topic**: Inference Optimization / xLSTM
+    *   **Summary**: 트랜스포머 KV 캐시 파괴(가변적 램 병목 억제)를 위한 xLSTM 증류 설계 방향성과 Speculative Decoding(투기적 해독) 등을 통한 제약 환경 내 최고 속도 가속화 기법.
 
 *   [**Moonshine: Speech Recognition**](Drafts/Moonshine.md)
     *   **Topic**: Audio / On-Device
@@ -195,6 +227,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 ---
 
 ## 🔥 Trends & Industry
+
+*   [**NCCL 오류(Silent Failure) 원인과 대안 라이브러리**](Drafts/NCCL_Alternative.md)
+    *   **Topic**: AI Infrastructure
+    *   **Summary**: 분산 학습 시 악명 높은 NCCL의 침묵 종료 문제와 대처법(Fail Fast, 타임아웃 감소), 그리고 MSCCL++ 및 RCCL 등의 차세대 대체 기술 분석.
 
 *   [**Open Claw & The Philosophy of Engineering**](Drafts/Open_Claw_Philosophy.md)
     *   **Topic**: Insight
