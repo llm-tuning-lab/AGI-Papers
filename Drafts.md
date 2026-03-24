@@ -6,6 +6,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ## 🤖 Agents
 
+*   [**코딩 에이전트의 역설: 친절한 설명서 (AGENTS.md)가 망치는 효율성**](Drafts/Evaluating_AGENTS_md.md)
+    *   **Topic**: Agent / Evaluation
+    *   **Summary**: 코딩 에이전트에게 리포지토리 컨텍스트 파일(AGENTS.md)을 제공하는 것이 오히려 정보 과부하를 유발해 성공률을 떨어뜨리고 비용을 높인다는 흥미로운 반직관적 연구 결과.
+
 *   [**Zero-Swap Tiny-MoA: 16GB 로컬 에이전트 아키텍처**](Drafts/Zero_Swap_Tiny_MoA.md)
     *   **Topic**: Local Agent Architecture
     *   **Summary**: 16GB RAM 제약 속에서 ModernBERT 라우터와 350M 다이내믹 LoRA 스와핑, 1.2B 모델을 버무려 지연 시간(I/O 스와핑)을 0에 수렴시킨 현존 최고 효율의 다중 에이전트 마스터플랜.
@@ -76,6 +80,10 @@ This file contains drafts and summaries of new papers that have not yet been ful
 ---
 
 ## 🧠 Architecture
+
+*   [**글로벌 확장의 새로운 룰 'Tiny Aya': 3B 체급으로 70개 국어를 정복하다**](Drafts/Tiny_Aya_Multilingual.md)
+    *   **Topic**: Tiny Model / Multilingual
+    *   **Summary**: 토크나이저 최적화, 합성 데이터 융합(Fusion-of-N), 지역 특화 병합(SIMMERGE) 기술로 거대 모델의 다국어 번역 성능을 3B 크기로 압축해낸 Cohere Labs의 오프라인 모바일 엣지 아키텍처.
 
 *   [**디퓨전 LLM: 속도와 보안의 룰을 바꾸다 (Mercury 2)**](Drafts/Diffusion_LLM_Mercury2.md)
     *   **Topic**: Diffusion Language Model / Inference
@@ -171,6 +179,14 @@ This file contains drafts and summaries of new papers that have not yet been ful
 ---
 
 ## 📚 Pre-Training & Post-Training
+
+*   [**생각의 궤적에 보상을 주다: RLTT 알고리즘 구현의 핵심**](Drafts/RLTT_Algorithm_Implementation.md)
+    *   **Topic**: Reinforcement Learning / Looped Model
+    *   **Summary**: 최종 출력값뿐만 아니라 다중 추론 루프의 모든 중간 궤적에 가중합 보상을 할당하여 학습 병목을 해결하고 모델 통제력을 극대화하는 RLTT 알고리즘 메커니즘과 구현 가이드.
+
+*   [**환각의 뿌리를 뽑는 'PretrainRL': 사후 교정의 한계를 넘다**](Drafts/PretrainRL_Hallucination.md)
+    *   **Topic**: Pre-training / Hallucination
+    *   **Summary**: 포스트 트레이닝의 한계(망각 현상)를 극복하기 위해, 사전 학습 단계에서 빔 서치와 DPO를 결합해 근본적인 팩트 체계를 재정렬하는 강화학습 방법론.
 
 *   [**희소 메모리 파인튜닝: 파괴적 망각 방지법**](Drafts/Sparse_Memory_Finetuning.md)
     *   **Topic**: Continual Learning / Finetuning
