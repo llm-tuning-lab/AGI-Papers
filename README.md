@@ -83,6 +83,8 @@
 
 ## <a id="agents"></a>🤖 Agents
 
+*   [**HYPERAGENTS: 스스로 '공부법'을 코딩하며 진화하는 AI**](./Agents/117.md)  
+    *LLM이 스스로 파이썬 코드를 짜면서 학습 방법을 진화시키는 개방형 지능 연구.*
 *   [**32B가 480B 모델을 이기는 데이터 엔지니어링**](./Agents/115.md)  
     *NVIDIA의 터미널 에이전트 훈련의 비밀과 데이터 재활용.*
 *   [**샌드박스를 탈출해 코인을 채굴한 통제 불가능한 에이전트**](./Agents/116.md)  
@@ -132,6 +134,8 @@
 
 ## <a id="architecture"></a>🧠 Architecture
 
+*   [**패러다임 전환: VLM 기반 문서 OCR의 한계를 넘는 MinerU-Diffusion**](./Architecture/118.md)  
+    *텍스트 디코더에 확산(Diffusion) 모델을 도입해 전체 페이지를 병렬 해독하는 문서 OCR.*
 *   [**Modern Model Architectures Overview 강연 온라인 진행 안내**](./Architecture/117.md)  
     *다양한 모델 아키텍처 소개 및 온라인 무료 강연 진행 일정 안내.*
 *   [**손실 없는 Transformer to xLSTM 증류법**](./Architecture/116.md)  
@@ -258,6 +262,8 @@
 
 ## <a id="rag--knowledge"></a>🗂️ RAG & Knowledge
 
+*   [**1억 토큰의 장벽을 깨다: RAG의 한계를 극복한 MSA**](./RAG/118.md)  
+    *RAG를 버리고 모델 내부에 1억 토큰을 담아내는 Memory Sparse Attention 기술.*
 *   [**더 싸고 빠른 오픈소스 모델로 Claude 4.6 Opus 잡기**](./RAG/117.md)  
     *가벼운 모델에게 검색하는 방법을 가르치는 KARL.*
 *   [**LIMRANK: Less is More**](./RAG/109.md)  
@@ -386,6 +392,14 @@
 
 ## <a id="trends--industry"></a>🔥 Trends & Industry
 
+*   [**LLM Wiki와 같은 결론: 기술적 지향점의 일치**](./Trends/129.md)  
+    *Karpathy의 LLM Wiki 아이디어, 동일한 결론에 도달하게 되는 기술적 사고 과정과 실행력에 관하여.*
+*   [**점점 API로만 공개되는 새로운 중국 모델들 (새로운 Qwen, GLM)**](./Trends/128.md)  
+    *AI 초지능 달성의 기대감과 오픈소스 생태계의 불안한 미래.*
+*   [**전문가들의 인공지능 경제적 파급력 예측 (Forecasting the Economic Effects of AI)**](./Trends/127.md)  
+    *인공지능 발전의 경제적 영향과 인프라, 적응 시차의 문제.*
+*   [**요즘 드는 생각 (Gemma 4, MoE, 중국, 구글)**](./Trends/126.md)  
+    *오픈소스 생태계의 가능성, 중국의 혁신, 그리고 최종 경쟁자 구글에 대한 단상.*
 *   [**인공지능 모델링의 예술화와 그 본질**](./Trends/125.md)  
     *과학과 수학을 넘어, 창작자의 표현 방식과 개성이 중요해지는 강화학습(RL) 분야의 단상.*
 *   [**국가 경쟁 시대의 종말과 아웃라이어 기업/자본**](./Trends/124.md)  
