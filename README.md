@@ -31,40 +31,6 @@
 
 ---
 
-## 🌟 Recommended Resources
-
-공부할 때 도움이 될 훌륭한 자료들을 공유합니다.
-
-*   **[LLM course](https://github.com/mlabonne/llm-course)** 
-    *전반적인 LLM 지식 로드맵*
-*   **[Reinforcement Learning from Human Feedback](https://rlhfbook.com/)** 
-    *무료 강화학습 책*
-*   **[Build A Reasoning Model (From Scratch)](https://github.com/rasbt/reasoning-from-scratch)** 
-    *LLM 작동 방식 이해*
-*   **[Ahead of AI](https://magazine.sebastianraschka.com/)** 
-    *LLM 모델 아키텍처 이해*
-*   **[Maxime Labonne Blog](https://maximelabonne.substack.com/)** 
-    *다양한 프로젝트 및 기술 이해*
-*   **[LLM Datasets](https://github.com/mlabonne/llm-datasets)** 
-    *LLM 학습 데이터 모음*
-*   **[LLM-KO-Datasets](https://github.com/gyunggyung/LLM-Ko-Datasets)** 
-    *한국어 포함 데이터*
-*   **[AGI-Papers](https://github.com/gyunggyung/AGI-Papers)** 
-    *논문 리뷰 등 다양한 시선 공유*
-*   **[Unsloth Dynamic 2.0 GGUFs](https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs)** 
-    *최신 양자화 방법*
-*   **[TRL Docs](https://huggingface.co/docs/trl/index)** 
-    *학습 가이드*
-*   **[The Modern Software Developer](https://themodernsoftware.dev/)** 
-    *에이전트 개발법*
-*   **[Andrej Karpathy Twitter](https://x.com/karpathy)** 
-
-*   **[Yann LeCun Twitter](https://x.com/ylecun)** 
-   
-*   **[Andrew Ng Twitter](https://x.com/AndrewYNg)** 
-
----
-
 ## 📚 Contents
 
 이 저장소는 AGI를 향한 여정을 다음 8가지 핵심 주제로 분류하여 정리합니다.
@@ -78,6 +44,7 @@
 - [💻 On-Device AI](#on-device-ai) : 로컬 구동, 엣지 컴퓨팅, 최적화
 - [🚀 Projects](#projects) : 직접 구현한 프로젝트 및 실험 결과
 - [🔥 Trends & Industry](#trends--industry) : AI 산업의 동향, 인사이트, 주요 뉴스
+- [🌟 Recommended Resources](#recommended-resources) : 공부를 위한 추천 자료
 
 ---
 
@@ -454,6 +421,41 @@
     *아무런 지시도 하지 않았을 때 LLM은 무엇을 생각하는가? 모델 성격 유형 분석.*
 *   [**AI 거품론의 본질**](./Trends/2.md)  
     *시장 축소가 아닌 수급 안정화와 산업의 성숙.*
+
+---
+
+
+## <a id="recommended-resources"></a> 🌟 Recommended Resources
+
+공부할 때 도움이 될 훌륭한 자료들을 공유합니다.
+
+*   **[LLM course](https://github.com/mlabonne/llm-course)** 
+    *전반적인 LLM 지식 로드맵*
+*   **[Reinforcement Learning from Human Feedback](https://rlhfbook.com/)** 
+    *무료 강화학습 책*
+*   **[Build A Reasoning Model (From Scratch)](https://github.com/rasbt/reasoning-from-scratch)** 
+    *LLM 작동 방식 이해*
+*   **[Ahead of AI](https://magazine.sebastianraschka.com/)** 
+    *LLM 모델 아키텍처 이해*
+*   **[Maxime Labonne Blog](https://maximelabonne.substack.com/)** 
+    *다양한 프로젝트 및 기술 이해*
+*   **[LLM Datasets](https://github.com/mlabonne/llm-datasets)** 
+    *LLM 학습 데이터 모음*
+*   **[LLM-KO-Datasets](https://github.com/gyunggyung/LLM-Ko-Datasets)** 
+    *한국어 포함 데이터*
+*   **[AGI-Papers](https://github.com/gyunggyung/AGI-Papers)** 
+    *논문 리뷰 등 다양한 시선 공유*
+*   **[Unsloth Dynamic 2.0 GGUFs](https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs)** 
+    *최신 양자화 방법*
+*   **[TRL Docs](https://huggingface.co/docs/trl/index)** 
+    *학습 가이드*
+*   **[The Modern Software Developer](https://themodernsoftware.dev/)** 
+    *에이전트 개발법*
+*   **[Andrej Karpathy Twitter](https://x.com/karpathy)** 
+
+*   **[Yann LeCun Twitter](https://x.com/ylecun)** 
+   
+*   **[Andrew Ng Twitter](https://x.com/AndrewYNg)** 
 
 ---
 
