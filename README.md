@@ -83,6 +83,8 @@
 
 ## <a id="agents"></a>🤖 Agents
 
+*   [**하네스(Harness)의 민낯과 그 한계**](./Agents/118.md)  
+    *Meta-Harness, NLAH, ARC-AGI-3 등 하네스의 효과와 본질적 한계를 파헤친 3편의 논문 리뷰.*
 *   [**HYPERAGENTS: 스스로 '공부법'을 코딩하며 진화하는 AI**](./Agents/117.md)  
     *LLM이 스스로 파이썬 코드를 짜면서 학습 방법을 진화시키는 개방형 지능 연구.*
 *   [**32B가 480B 모델을 이기는 데이터 엔지니어링**](./Agents/115.md)  
