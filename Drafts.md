@@ -4,7 +4,32 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 🤖 Agents
+## 📚 Contents
+
+이 저장소의 **Drafts(초안 및 요약 리스트)**를 다음 6가지 핵심 주제로 분류하여 아카이빙합니다.
+
+- [🤖 Agents](#agents) : 자율 에이전트, 행동/계획(Planning) 모델, 프레임워크
+- [🧠 Architecture](#architecture) : LLM 아키텍처 혁신 (Transformer, Mamba, MoE)
+- [📚 Pre-Training & Post-Training](#pre-post-training) : 파운데이션 모델, RLHF, DPO, GRPO, 정렬(Alignment)
+- [🗂️ RAG & Knowledge](#rag-knowledge) : 검색 증강 생성, 지식 그래프, 메모리
+- [💻 On-Device & Audio](#on-device) : 로컬 구동, 엣지 컴퓨팅, 최적화
+- [🔥 Trends & Industry](#trends-industry) : AI 산업의 동향, 인사이트, 주요 뉴스
+
+---
+
+## <a id="agents"></a>🤖 Agents
+
+*   [**코딩 에이전트의 역설: 친절한 설명서 (AGENTS.md)가 망치는 효율성**](Drafts/Evaluating_AGENTS_md.md)
+    *   **Topic**: Agent / Evaluation
+    *   **Summary**: 코딩 에이전트에게 리포지토리 컨텍스트 파일(AGENTS.md)을 제공하는 것이 오히려 정보 과부하를 유발해 성공률을 떨어뜨리고 비용을 높인다는 흥미로운 반직관적 연구 결과.
+
+*   [**Zero-Swap Tiny-MoA: 16GB 로컬 에이전트 아키텍처**](Drafts/Zero_Swap_Tiny_MoA.md)
+    *   **Topic**: Local Agent Architecture
+    *   **Summary**: 16GB RAM 제약 속에서 ModernBERT 라우터와 350M 다이내믹 LoRA 스와핑, 1.2B 모델을 버무려 지연 시간(I/O 스와핑)을 0에 수렴시킨 현존 최고 효율의 다중 에이전트 마스터플랜.
+
+*   [**AI Can Learn Scientific Taste**](Drafts/Scientific_Taste.md)
+    *   **Topic**: Agent / Scientific Discovery
+    *   **Summary**: AI 과학자가 지시된 연구를 넘어 가치 있는 연구 방향을 판별하고 고안하는 능력을 RLCF로 학습. 인용 수와 전문가 평가를 통한 '과학적 안목' 구축 프레임워크 제안.
 
 *   [**AI Era Cognitive Surrender**](Drafts/Cognitive_Surrender.md)
     *   **Topic**: Human-AI Interaction
@@ -67,7 +92,39 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 🧠 Architecture
+## <a id="architecture"></a>🧠 Architecture
+
+*   [**글로벌 확장의 새로운 룰 'Tiny Aya': 3B 체급으로 70개 국어를 정복하다**](Drafts/Tiny_Aya_Multilingual.md)
+    *   **Topic**: Tiny Model / Multilingual
+    *   **Summary**: 토크나이저 최적화, 합성 데이터 융합(Fusion-of-N), 지역 특화 병합(SIMMERGE) 기술로 거대 모델의 다국어 번역 성능을 3B 크기로 압축해낸 Cohere Labs의 오프라인 모바일 엣지 아키텍처.
+
+*   [**디퓨전 LLM: 속도와 보안의 룰을 바꾸다 (Mercury 2)**](Drafts/Diffusion_LLM_Mercury2.md)
+    *   **Topic**: Diffusion Language Model / Inference
+    *   **Summary**: 뮌헨 공대의 인페인팅 보안 공격과 초당 1,009 토큰을 생성하는 Mercury 2 상용 모델을 통해 본 디퓨전 LLM의 파괴적 혁신(속도, 보안, 부분 수정)과 구조적 한계.
+
+*   [**ModernBERT: 2026년 시맨틱 라우터의 글로벌 표준**](Drafts/ModernBERT_Router.md)
+    *   **Topic**: Encoder / LLM Routing
+    *   **Summary**: Unpadding 및 Alternating Attention 설계로 인텔 CPU 8비트 환경의 연산 한계를 돌파한 2조 개 토큰 인코더의 효율성 벤치마킹 분석.
+
+*   [**Omni-Diffusion: 이산 확산(Discrete Diffusion) 기반 멀티모달**](Drafts/Omni_Diffusion.md)
+    *   **Topic**: Multimodal / Diffusion
+    *   **Summary**: AR(자가회귀)의 순차적 토큰 제한을 뛰어넘어, 이미지·오디오·텍스트의 단일 정렬 의미 공간을 구축해 병렬 디코딩을 구현한 Any-to-Any 모델 리뷰.
+
+*   [**MDM-Prime-v2: 확산 언어 모델 연산 효율성 최적화**](Drafts/MDM_Prime_v2.md)
+    *   **Topic**: Diffusion Language Model
+    *   **Summary**: 이진 인코딩(Binary Encoding)과 인덱스 셔플링을 적용해 마스크 확산 언어 모델(MDM)의 연산 효율성을 ARM 대비 21.8배 향상시킨 혁신.
+
+*   [**Nemotron-Cascade 2 아키텍처 및 학습 방법론**](Drafts/Nemotron_Cascade_2.md)
+    *   **Topic**: Architecture / Post-Training
+    *   **Summary**: 활성 3B의 MoE 모델로 놀라운 지능 밀도(IMO 금메달)를 달성한 비법. 순차적 강화학습(Cascade RL)과 다중 도메인 지식 증류(MOPD) 구조 분석.
+
+*   [**선형 RNN 병렬화 처리 속도와 표현력 분석**](Drafts/Linear_RNN_Parallelizable.md)
+    *   **Topic**: Linear RNN / Expressivity
+    *   **Summary**: 선형, 비선형 RNN, 트랜스포머 간 회로 깊이(Circuit Depth)의 수학적 증명을 통해 지능과 처리 속도의 양자택일 트레이드오프 파헤치기.
+
+*   [**BERT-JEPA: 언어 불변 의미론적 공간 구축**](Drafts/BERT_JEPA.md)
+    *   **Topic**: Latent Space / Embeddings
+    *   **Summary**: BERT의 [CLS] 붕괴 한계를 Yann LeCun의 JEPA(Predictive Architecture) 구조로 해결. 언어에 얽매이지 않는 진보적인 생각/의미역(Thought space) 융합.
 
 *   [**TEON vs Muon: Pre-training Optimizer**](Drafts/TEON_vs_Muon.md)
     *   **Topic**: Optimization
@@ -134,7 +191,27 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 📚 Pre-Training & Post-Training
+## <a id="pre-post-training"></a>📚 Pre-Training & Post-Training
+
+*   [**생각의 궤적에 보상을 주다: RLTT 알고리즘 구현의 핵심**](Drafts/RLTT_Algorithm_Implementation.md)
+    *   **Topic**: Reinforcement Learning / Looped Model
+    *   **Summary**: 최종 출력값뿐만 아니라 다중 추론 루프의 모든 중간 궤적에 가중합 보상을 할당하여 학습 병목을 해결하고 모델 통제력을 극대화하는 RLTT 알고리즘 메커니즘과 구현 가이드.
+
+*   [**환각의 뿌리를 뽑는 'PretrainRL': 사후 교정의 한계를 넘다**](Drafts/PretrainRL_Hallucination.md)
+    *   **Topic**: Pre-training / Hallucination
+    *   **Summary**: 포스트 트레이닝의 한계(망각 현상)를 극복하기 위해, 사전 학습 단계에서 빔 서치와 DPO를 결합해 근본적인 팩트 체계를 재정렬하는 강화학습 방법론.
+
+*   [**희소 메모리 파인튜닝: 파괴적 망각 방지법**](Drafts/Sparse_Memory_Finetuning.md)
+    *   **Topic**: Continual Learning / Finetuning
+    *   **Summary**: FFN 레이어를 '메모리 슬롯'으로 교체하고 TF-IDF로 새로운 지식 슬롯만 타겟팅해 업데이트함으로써, 기존 지식 망각률을 89%에서 11%로 방어한 지속 학습 혁신.
+
+*   [**LLM 학습의 본질: 잠재/희소성 구조, Pre-training vs SFT**](Drafts/Latent_Sparse_Training.md)
+    *   **Topic**: Philosophy / AI Training
+    *   **Summary**: 모델의 공간 효율성(PCA, SVD, Lasso 정규화 철학)과 목적별 학습 파이프라인(Pre-training, SFT, RL)의 본질적 의미, Instruction 사전 훈련의 이점 고찰.
+
+*   [**신경망 덤불과 RandOpt 리뷰**](Drafts/RandOpt_Review.md)
+    *   **Topic**: Optimization / Evaluation / Post-Training
+    *   **Summary**: 기울기(Gradient) 계산 없이 무작위로 가중치를 섞는 RandOpt 알고리즘의 실체를 파헤친 리뷰. 막대한 추론 비용(K배 폭발), 포맷팅에 치우친 가짜 지능, H100 1대 기준 비현실적인 학습 시간을 지적하며 극단적 학술 연구가 지닌 실무적 한계와 의의를 정리.
 
 *   [**LIE: Length-Incentivized Exploration**](Drafts/LIE_Reasoning.md)
     *   **Topic**: Reasoning / RL
@@ -162,7 +239,11 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 🗂️ RAG & Knowledge
+## <a id="rag-knowledge"></a>🗂️ RAG & Knowledge
+
+*   [**PathRAG: 노이즈를 쳐내는 핵심 관계 경로 추출**](Drafts/PathRAG.md)
+    *   **Topic**: Graph RAG
+    *   **Summary**: 그래프 기반 RAG에서 무분별한 이웃 노드(노이즈) 검색을 탈피, 가지치기 탐색을 통해 가장 영양가 높은(핵심 깊이) 연결선 흐름으로만 정보를 조합하는 LLM 최적화 서칭.
 
 *   [**LimRank: Less is More**](Drafts/LimRank.md)
     *   **Topic**: RAG / Reranking
@@ -174,7 +255,11 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 💻 On-Device & Audio
+## <a id="on-device"></a>💻 On-Device & Audio
+
+*   [**xLSTM 증류, 로컬 환경 커널 최적화 및 투기적 해독**](Drafts/xLSTM_Local_Engine.md)
+    *   **Topic**: Inference Optimization / xLSTM
+    *   **Summary**: 트랜스포머 KV 캐시 파괴(가변적 램 병목 억제)를 위한 xLSTM 증류 설계 방향성과 Speculative Decoding(투기적 해독) 등을 통한 제약 환경 내 최고 속도 가속화 기법.
 
 *   [**Moonshine: Speech Recognition**](Drafts/Moonshine.md)
     *   **Topic**: Audio / On-Device
@@ -190,7 +275,23 @@ This file contains drafts and summaries of new papers that have not yet been ful
 
 ---
 
-## 🔥 Trends & Industry
+## <a id="trends-industry"></a>🔥 Trends & Industry
+
+*   [**친노동자적 AI: AI는 왜 당신을 대체하려고만 할까?**](Drafts/Pro_Worker_AI.md)
+    *   **Topic**: Future of Work / AI Policy
+    *   **Summary**: NBER 논문 분석. 기술 알고리즘의 문제가 아닌 AGI 지상주의와 경영진의 자동화 선호(세제 혜택 등) 구조가 혁신적 '인간-AI 협업'을 막고 있음을 지적한 정책 제언.
+
+*   [**데이터가 90%다: AI 시대의 가장 중요한 습관**](Drafts/Data_Is_Everything.md)
+    *   **Topic**: AI Era Philosophy
+    *   **Summary**: 모델 스펙이나 거대 에이전트에 매몰되지 말고 실패/해결사례 기록만 남긴다면, AGI 체제의 가장 차별성 높은 데이터 무기를 얻는다는 실전 철학.
+
+*   [**AI 시대, 완전히 뒤집힌 직업의 안전성 (앤트로픽 차트)**](Drafts/AI_Job_Safety.md)
+    *   **Topic**: Future of Work
+    *   **Summary**: 앤트로픽의 이론적 커버리지 분석에 따른, 코딩·법률·사무직 지식 노동의 완전한 위험성과 대면·육체 현장 노동의 절대적 안전성으로 붕괴된 시대의 역설 분석.
+
+*   [**NCCL 오류(Silent Failure) 원인과 대안 라이브러리**](Drafts/NCCL_Alternative.md)
+    *   **Topic**: AI Infrastructure
+    *   **Summary**: 분산 학습 시 악명 높은 NCCL의 침묵 종료 문제와 대처법(Fail Fast, 타임아웃 감소), 그리고 MSCCL++ 및 RCCL 등의 차세대 대체 기술 분석.
 
 *   [**Open Claw & The Philosophy of Engineering**](Drafts/Open_Claw_Philosophy.md)
     *   **Topic**: Insight

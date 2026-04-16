@@ -7,9 +7,14 @@
 > **Toward Artificial General Intelligence (AGI) in 2026.**  
 > A curated archive of breakthroughs in **Agents**, **Architecture**, **Training**, **RAG**, and **On-Device AI**.
 
-## 📌 Introduction
+## 📢 News
 
-2026년, AGI에 그 어느 때보다 가까운 시대가 도래했습니다.  
+*   **[2026-03-20]** [**Modern Model Architectures Overview 강연 자료 (PDF)**](./PDF/Modern-Model-Architectures-Overview.pdf)를 업데이트했습니다.
+*   **[2026-03-15]** [**Introduction to Post-Training & Beyond 강연 자료 (PDF)**](./PDF/introduction-to-post-training-and-beyond.pdf)를 업데이트했습니다.
+
+## 📌 Introduction
+2026년, 인공지능의 발전 속도가 유례없을 지경입니다.
+
 이 저장소는 **AGI(Artificial General Intelligence)** 로 향하는 여정에서 중요한 논문들을 리뷰하고 아카이빙하는 공간입니다.
 
 주로 제 **[LinkedIn](https://www.linkedin.com/in/kiwoong-yeom/)** 에서 다룬 논문들에 대한 심도 있는 리뷰가 업로드되며, 때로는 소셜 미디어에 공유하기 전의 **Pre-release 인사이트**나 날것의 생각들이 이곳에 먼저 기록될 예정입니다.
@@ -39,11 +44,20 @@
 - [💻 On-Device AI](#on-device-ai) : 로컬 구동, 엣지 컴퓨팅, 최적화
 - [🚀 Projects](#projects) : 직접 구현한 프로젝트 및 실험 결과
 - [🔥 Trends & Industry](#trends--industry) : AI 산업의 동향, 인사이트, 주요 뉴스
+- [🌟 Recommended Resources](#recommended-resources) : 공부를 위한 추천 자료
 
 ---
 
 ## <a id="agents"></a>🤖 Agents
 
+*   [**하네스(Harness)의 민낯과 그 한계**](./Agents/118.md)  
+    *Meta-Harness, NLAH, ARC-AGI-3 등 하네스의 효과와 본질적 한계를 파헤친 3편의 논문 리뷰.*
+*   [**HYPERAGENTS: 스스로 '공부법'을 코딩하며 진화하는 AI**](./Agents/117.md)  
+    *LLM이 스스로 파이썬 코드를 짜면서 학습 방법을 진화시키는 개방형 지능 연구.*
+*   [**32B가 480B 모델을 이기는 데이터 엔지니어링**](./Agents/115.md)  
+    *NVIDIA의 터미널 에이전트 훈련의 비밀과 데이터 재활용.*
+*   [**샌드박스를 탈출해 코인을 채굴한 통제 불가능한 에이전트**](./Agents/116.md)  
+    *알리바바 연구진의 ALE 논문과 에이전트 훈련의 미학.*
 *   [**Prompt Repetition Improves Non-Reasoning LLMs**](./Agents/113.md)  
     *70전 0패 47승, 같은 프롬프트를 반복하면 성능이 올라갑니다!*
 *   [**Adaptation of Agentic AI**](./Agents/80.md)  
@@ -89,6 +103,20 @@
 
 ## <a id="architecture"></a>🧠 Architecture
 
+*   [**패러다임 전환: VLM 기반 문서 OCR의 한계를 넘는 MinerU-Diffusion**](./Architecture/118.md)  
+    *텍스트 디코더에 확산(Diffusion) 모델을 도입해 전체 페이지를 병렬 해독하는 문서 OCR.*
+*   [**Modern Model Architectures Overview 강연 온라인 진행 안내**](./Architecture/117.md)  
+    *다양한 모델 아키텍처 소개 및 온라인 무료 강연 진행 일정 안내.*
+*   [**손실 없는 Transformer to xLSTM 증류법**](./Architecture/116.md)  
+    *무거운 어텐션 모듈을 덜어내고 하이브리드 모듈(xLSTM+SWA)로 이식하여 메모리와 속도를 혁신적으로 개선한 증류(Distillation) 수술법.*
+*   [**Jacobi Forcing: 튜닝만으로 추론 속도를 4배 끌어올리는 방법**](./Architecture/115.md)  
+    *기존 LLM 아키텍처 변경 없이, 가벼운 튜닝만으로 추론 속도를 4배 향상 (KV 캐시 100% 보존)*
+*   [**Attention Residuals: 딥러닝 레이어 사이의 정보 흐름 재설계**](./Architecture/114.md)  
+    *Kimi (Moonshot AI): RNN에서 Attention, ResNet에서 AttnRes*
+*   [**Nemotron 3 Super와 NVFP4의 마법**](./Architecture/113.md)  
+    *NVIDIA의 기업용 에이전트 니모클로(Nemoclo)와 블랙웰 하드웨어 장벽.*
+*   [**최고 성능의 4.44배 빠른 ASR 분야의 dLLM**](./Architecture/112.md)  
+    *확산 모델(Diffusion Model)을 음성 인식에 도입해 병렬 처리와 추론 가속 달성.*
 *   [**STATIC: 1,000배 빠른 LLM 추천시스템**](./Architecture/111.md)  
     *구글 딥마인드가 트리 구조를 희소 행렬로 펼쳐 LLM 제약 디코딩을 1,033배 가속한 방법.*
 *   [**Text-to-LoRA & Doc-to-LoRA: 즉각적 모델 업데이트**](./Architecture/110.md)  
@@ -163,6 +191,12 @@
 
 ## <a id="post-training"></a>🎯 Post-Training
 
+*   [**Introduction to Post-Training & Beyond 강연 후기 및 향후 계획**](./Post_Training/125.md)  
+    *Maxime Labonne의 강연 자료를 기반으로 한 온라인 강연 성공 사례와 향후 디스코드 스터디 계획.*
+*   [**그 OpenClaw로 강화학습을? 프린스턴 대학교의 OpenClaw-RL**](./Post_Training/124.md)  
+    *프린스턴 대학교 연구진이 제안한 OpenClaw-RL 프레임워크와 실시간 강화학습의 한계.*
+*   [**강화학습 과정은 단 13개의 파라미터면 충분합니다.**](./Post_Training/110.md)  
+    *Qwen2.5-7B-Instruct에 GRPO를 적용하여 GSM8K 수학 벤치마크 정답률 91% 달성.*
 *   [**Parameter-Efficient Fine-Tuning for Foundation Models**](./Post_Training/106.md)  
     *거대 모델을 효율적으로 튜닝하는 5가지 핵심 기법(PEFT) 총정리.*
 *   [**When Reasoning Meets its Laws**](./Post_Training/108.md)  
@@ -197,6 +231,10 @@
 
 ## <a id="rag--knowledge"></a>🗂️ RAG & Knowledge
 
+*   [**1억 토큰의 장벽을 깨다: RAG의 한계를 극복한 MSA**](./RAG/118.md)  
+    *RAG를 버리고 모델 내부에 1억 토큰을 담아내는 Memory Sparse Attention 기술.*
+*   [**더 싸고 빠른 오픈소스 모델로 Claude 4.6 Opus 잡기**](./RAG/117.md)  
+    *가벼운 모델에게 검색하는 방법을 가르치는 KARL.*
 *   [**LIMRANK: Less is More**](./RAG/109.md)  
     *2만 개 데이터로 SOTA 리랭커 만들기.*
 *   [**HippoRAG 2**](./RAG/100.md)  
@@ -222,6 +260,8 @@
 
 ## <a id="on-device-ai"></a>💻 On-Device AI
 
+*   [**flash-moe: 48GB 맥북에서 Qwen3.5-397B-A17B 돌리기**](./On_Device/126.md)  
+    *C언어와 OS 순정 기능으로 SSD 병목을 뚫어낸 Mac 전용 추론 엔진.*
 *   [**Liquid AI 1.2B vs Google 4B**](./On_Device/45.md)  
     *Pau Labarta Bajo's Local AI Insight.*
 *   [**국가대표 AI 탈락 그 후 (On-Device Focus)**](./On_Device/42.md)  
@@ -292,6 +332,10 @@
     *Liquid AI, TII, NVIDIA의 새로운 시도들.*
 
 ### 🪄 Post-Training Projects
+*   [**Introduction to Post-Training 강연 온라인 진행 안내**](./Post_Training/123.md)  
+    *Maxime Labonne님의 자료를 재구성한 온라인 무료 강연 일정 안내 및 디스코드 투표.*
+*   [**Introduction to Post-Training 강연 재구성**](./Post_Training/111.md)  
+    *Maxime Labonne님의 자료를 기반으로 한 7가지 최신 RL 논문과 비전.*
 *   [**LFM2 1.2B 기반 한국어-영어 번역기**](./Projects/89.md)  
     *LFM2 1.2B 모델로 구글과 알리바바의 4B 모델을 이긴 번역기 제작기.*
 *   [**LFM2 번역기 개발기: 핵심 발견 및 성과**](./Projects/82.md)  
@@ -317,6 +361,26 @@
 
 ## <a id="trends--industry"></a>🔥 Trends & Industry
 
+*   [**LLM Wiki와 같은 결론: 기술적 지향점의 일치**](./Trends/129.md)  
+    *Karpathy의 LLM Wiki 아이디어, 동일한 결론에 도달하게 되는 기술적 사고 과정과 실행력에 관하여.*
+*   [**점점 API로만 공개되는 새로운 중국 모델들 (새로운 Qwen, GLM)**](./Trends/128.md)  
+    *AI 초지능 달성의 기대감과 오픈소스 생태계의 불안한 미래.*
+*   [**전문가들의 인공지능 경제적 파급력 예측 (Forecasting the Economic Effects of AI)**](./Trends/127.md)  
+    *인공지능 발전의 경제적 영향과 인프라, 적응 시차의 문제.*
+*   [**요즘 드는 생각 (Gemma 4, MoE, 중국, 구글)**](./Trends/126.md)  
+    *오픈소스 생태계의 가능성, 중국의 혁신, 그리고 최종 경쟁자 구글에 대한 단상.*
+*   [**인공지능 모델링의 예술화와 그 본질**](./Trends/125.md)  
+    *과학과 수학을 넘어, 창작자의 표현 방식과 개성이 중요해지는 강화학습(RL) 분야의 단상.*
+*   [**국가 경쟁 시대의 종말과 아웃라이어 기업/자본**](./Trends/124.md)  
+    *국가 간 경쟁보다 압도적인 기술력을 가진 아웃라이어 기업과 거대 자본이 시장을 주도하는 시대에 대한 통찰.*
+*   [**이제는 학습이 아니라 추출의 시대입니다**](./Trends/123.md)  
+    *학습을 최소화하고 모델의 숨겨진 지능을 폭발시키는 5가지 최신 방법론과 패러다임의 변화.*
+*   [**인공지능에서의 중요도는 데이터 90%, 에이전트 9%, 모델 1%입니다.**](./Trends/120.md)  
+    *거대 모델에 가려진 핵심 본질과 데이터 기록의 중요성.*
+*   [**강아지도 코딩하는 시대, 우린 왜 더 과로하고 멍청해질까?**](./Trends/121.md)  
+    *자동화된 피드백 루프의 늪과 인지적 굴복의 위험성.*
+*   [**한국어 데이터를 위한 다짐**](./Trends/122.md)  
+    *외국인들이 한국어를 배우게 만들겠다는 10년 전 다짐의 실현.*
 *   [**AGI라는 위험한 이데올로기: 아세모글루와 르쿤의 일침**](./Trends/117.md)  
     *노벨 경제학상 수상자와 얀 르쿤이 동시에 내린 결론: 만능 AI 환상에서 깨어나라.*
 *   [**규모의 경쟁을 넘어선 14가지 시도**](./Trends/118.md)  
@@ -357,6 +421,41 @@
     *아무런 지시도 하지 않았을 때 LLM은 무엇을 생각하는가? 모델 성격 유형 분석.*
 *   [**AI 거품론의 본질**](./Trends/2.md)  
     *시장 축소가 아닌 수급 안정화와 산업의 성숙.*
+
+---
+
+
+## <a id="recommended-resources"></a> 🌟 Recommended Resources
+
+공부할 때 도움이 될 훌륭한 자료들을 공유합니다.
+
+*   **[LLM course](https://github.com/mlabonne/llm-course)** 
+    *전반적인 LLM 지식 로드맵*
+*   **[Reinforcement Learning from Human Feedback](https://rlhfbook.com/)** 
+    *무료 강화학습 책*
+*   **[Build A Reasoning Model (From Scratch)](https://github.com/rasbt/reasoning-from-scratch)** 
+    *LLM 작동 방식 이해*
+*   **[Ahead of AI](https://magazine.sebastianraschka.com/)** 
+    *LLM 모델 아키텍처 이해*
+*   **[Maxime Labonne Blog](https://maximelabonne.substack.com/)** 
+    *다양한 프로젝트 및 기술 이해*
+*   **[LLM Datasets](https://github.com/mlabonne/llm-datasets)** 
+    *LLM 학습 데이터 모음*
+*   **[LLM-KO-Datasets](https://github.com/gyunggyung/LLM-Ko-Datasets)** 
+    *한국어 포함 데이터*
+*   **[AGI-Papers](https://github.com/gyunggyung/AGI-Papers)** 
+    *논문 리뷰 등 다양한 시선 공유*
+*   **[Unsloth Dynamic 2.0 GGUFs](https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs)** 
+    *최신 양자화 방법*
+*   **[TRL Docs](https://huggingface.co/docs/trl/index)** 
+    *학습 가이드*
+*   **[The Modern Software Developer](https://themodernsoftware.dev/)** 
+    *에이전트 개발법*
+*   **[Andrej Karpathy Twitter](https://x.com/karpathy)** 
+
+*   **[Yann LeCun Twitter](https://x.com/ylecun)** 
+   
+*   **[Andrew Ng Twitter](https://x.com/AndrewYNg)** 
 
 ---
 
